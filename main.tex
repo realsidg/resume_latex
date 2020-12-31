@@ -1,0 +1,338 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.3, 10 May 2020) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+% This fork/modified version has been made by Nicolás Omar González Passerino (nicolas.passerino@gmail.com, 15 Oct 2020)
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you need to pass whatever options to xcolor
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[8pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicons fonts
+%% and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=0.3cm,right=0.3cm,top=0.25cm,bottom=0.5cm,columnsep=0.3cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% ----- LIGHT MODE -----
+% \definecolor{SlateGrey}{HTML}{2E2E2E}
+% \definecolor{LightGrey}{HTML}{666666}
+% \definecolor{PrimaryColor}{HTML}{001F5A}
+% \definecolor{SecondaryColor}{HTML}{0039AC}
+% \definecolor{ThirdColor}{HTML}{F3890B}
+% \definecolor{BackgroundColor}{HTML}{E2E2E2}
+% \colorlet{name}{PrimaryColor}
+% \colorlet{tagline}{PrimaryColor}
+% \colorlet{heading}{PrimaryColor}
+% \colorlet{headingrule}{ThirdColor}
+% \colorlet{subheading}{SecondaryColor}
+% \colorlet{accent}{SecondaryColor}
+% \colorlet{emphasis}{SlateGrey}
+% \colorlet{body}{LightGrey}
+% \pagecolor{BackgroundColor}   
+% ----- DARK MODE -----
+\definecolor{BackgroundColor}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{6F6F6F}
+\definecolor{LightGrey}{HTML}{ABABAB}
+\definecolor{PrimaryColor}{HTML}{3F7FFF}
+\colorlet{name}{PrimaryColor}
+\colorlet{tagline}{PrimaryColor}
+\colorlet{heading}{PrimaryColor}
+\colorlet{headingrule}{PrimaryColor}
+\colorlet{subheading}{PrimaryColor}
+\colorlet{accent}{PrimaryColor}
+\colorlet{emphasis}{LightGrey}
+\colorlet{body}{LightGrey}
+\pagecolor{BackgroundColor}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\normalsize\bfseries}
+\renewcommand{\cvsectionfont}{\Large\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\normalsize\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+%% \addbibresource{sample.bib}
+
+\begin{document}
+    \name{Siddharth Garg}
+    \tagline{Developer, AI Engineer, Computer Science Pre Final Year Student}
+    %% You can add multiple photos on the left or right
+    \photoL{4cm}{side}
+    
+    \personalinfo{
+        \email{i@siddharthgarg.in }\smallskip
+        \location{Agra, India}\\
+        \linkedin{sidg510}
+        \github{realsidg}
+        % \dev{johnDoe}
+        \homepage{www.siddharthgarg.in}
+        %\medium{nicolasomar}
+        %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+        % \orcid{0000-0000-0000-0000}
+        %% You can add your own arbtrary detail with
+        %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+        % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+        %% Or you can declare your own field with
+        %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+        % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+        % \gitlab{your_id}
+    }
+    
+    \makecvheader
+    %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+    % \AtBeginEnvironment{itemize}{\small}
+    
+    %% Set the left/right column width ratio to 6:4.
+    \columnratio{0.4}
+
+    % Start a 2-column paracol. Both the left and right columns will automatically
+    % break across pages if things get too long.
+    \begin{paracol}{2}
+        
+        % ----- LANGUAGES -----
+        \cvsection{Education}
+        \cvevent{Btech, Computer Science}{| VIT Vellore (Institute of Eminence)}{07 2018 -- Present}{Vellore, India}
+        \begin{itemize}
+            \item CGPA: 8.9
+        \end{itemize}
+        \divider
+        
+        \cvevent{12th Grade, All India Senior School Certificate Examination(AISSCE) }{| Delhi Public School, RK Puram}{07 2015 -- 05 2017}{New Delhi, India}
+        \begin{itemize}
+            \item Score: 90\%
+        \end{itemize}
+        \divider
+
+        \cvevent{10th Grade, All India Secondary School Certificate (AISSC)}{| Delhi Public School, Agra}{2015}{New Delhi, India}
+        \begin{itemize}
+            \item CGPA: 9.4
+        \end{itemize}
+        % ----- LANGUAGES -----
+
+        % ----- STRENGTHS -----
+        \cvsection{Tech Stack}
+            
+            \cvsubsection{Programming}
+            \vspace{0.2cm}
+
+            \cvtag{Python}
+            \cvtag{C++}
+            \cvtag{C}
+            \cvtag{Java}
+            \cvtag{JavaScript}
+            \cvtag{SQL}
+            \smallskip
+
+            \cvsubsection{AI/ML}
+            \vspace{0.2cm}
+
+
+            \cvtag{Image Recognition}
+            \cvtag{CNNs}
+            \cvtag{Sentiment Analysis}
+            \cvtag{RNNs}
+            \cvtag{Topic Modeling}
+            \cvtag{Object Detection}
+            \smallskip
+
+            
+            \cvsubsection{Web Development}
+            \vspace{0.2cm}
+
+            \cvtag{Django}
+            \cvtag{Flask}
+            \cvtag{NodeJS}
+            \cvtag{PHP}
+            \cvtag{ReactJS}
+            \smallskip
+
+            
+            \cvsubsection{UI/UX}
+            \vspace{0.2cm}
+
+            \cvtag{Illustrator}
+            \cvtag{Canva}
+            \cvtag{Adobe XD}
+            \cvtag{Photoshop}
+        % ----- STRENGTHS -----
+        
+        % ----- LEARNING -----
+        % \cvsection{Learning}
+        %     \cvtag{Uno}
+        %     \cvtag{Dos}
+        %     \cvtag{Tres}
+        %     \cvtag{Cuatro}
+        %     \cvtag{Cinco}
+        %     \cvtag{Seis}
+        %     \cvtag{Siete}
+        %     \cvtag{Ocho}
+        %     \cvtag{Nueve}
+        %     \cvtag{Diez}
+        %     \medskip
+            
+        %     \cvtag{Rojo}
+        %     \cvtag{Amarillo}
+        %     \cvtag{Azul}
+        %     \cvtag{Verde}
+        %     \cvtag{Violeta}
+        %     \cvtag{Naranja}
+        %     \cvtag{Marron}
+        %     \cvtag{Blanco}
+        %     \cvtag{Gris}
+        %     \cvtag{Negro}
+        % ----- LEARNING -----
+        
+        
+            
+        % ----- REFERENCES -----
+        % \cvsection{ACHIEVEMENTS}
+        %     \textcolor{PrimaryColor}{Consecutive First Prize, RCPC 2020 and 2019}
+        %     Coding Competition, involving severalrounds by ACM, VIT
+            
+        %     \textcolor{PrimaryColor}{Runner Up, Hackathon by VIT}
+        %     Hello World 2.0 hack conducted by Vinnovate VIT
+            
+        %     \textcolor{PrimaryColor}{Winner, Jumble Ladder 2018}
+        %     Competive Coding at Gravitas 2018,Technical Fest of VIT
+            
+        %     \textcolor{PrimaryColor}{DBMS Hackathon, VIT 2019, 3rd}
+        %     Database Management and Systems hackathon conducted by VIT
+        % ----- REFERENCES -----
+        
+        % ----- MOST PROUD -----
+        \cvsection{ACHIEVEMENTS}
+        \medskip
+        \cvachievement{\faTrophy}{Consecutive First Prize, RCPC 2020 and 2019}{Coding Competition, involving severalrounds by ACM, VIT}\\
+        \cvachievement{\faTrophy}{Runner Up, Hackathon by VIT}{Hello World 2.0 hack conducted by Vinnovate VIT}\\
+        \cvachievement{\faTrophy}{Winner, Jumble Ladder 2018}{Competive Coding at Gravitas 2018 ny IEEE-VIT.}\\
+        \cvachievement{\faTrophy}{DBMS Hackathon, VIT 2019, 3rd Position}{Database Management and Systems hackathon conducted by VIT}\\
+        
+        \vspace*{\fill}
+        \scriptsize\textit{Last Updated on \today}
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+        % ----- MOST PROUD -----
+        
+        % \cvsection{A Day of My Life}
+        
+        % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+        % \wheelchart{outer radius}{inner radius}{
+        % comma-separated list of value/text width/color/detail}
+        % \wheelchart{1.5cm}{0.5cm}{%
+        %   6/8em/accent!30/{Sleep,\\beautiful sleep},
+        %   3/8em/accent!40/Hopeful novelist by night,
+        %   8/8em/accent!60/Daytime job,
+        %   2/10em/accent/Sports and relaxation,
+        %   5/6em/accent!20/Spending time with family
+        % }
+        
+        % use ONLY \newpage if you want to force a page break for
+        % ONLY the current column
+        \newpage
+        
+        %% Switch to the right column. This will now automatically move to the second
+        %% page if the content is too long.
+        \switchcolumn
+        
+        % ----- ABOUT ME -----
+        \cvsection{About Me}
+            \begin{quote}
+                Passionate developer, inquisitive, fast learner with experience in Full Stack Web Development and a specialist in Artificial Intelligence and Data Science. Well equipped with advanced level python, C++. Experience in creating end to end pipelines for data science projects. Deployed models on REST API, Object Detection on Raspberry Pi. IBM's Professional Certification in AI, Specialization in Deep Learning. 
+                
+                \smallskip
+                \textbf{Upcoming: DE Shaw QTE Summer Intern 2021}
+            \end{quote}
+        % ----- ABOUT ME -----
+        
+        % ----- EXPERIENCE -----
+        \cvsection{Experience}
+            \cvevent{Computer Vision Engineer }{| FindMind Analytics}{Feb 2020 -- Nov 2020}{}
+            
+            Programmed a high accuracy end to end pipeline with a REST API for OCR and masking of clients' sensitive documents using object detection, increasing speed 30x and accuracy to 97\% from 60\%
+
+            \divider
+            
+            \cvevent{Deep Learning Intern}{| The Symbionic Company}{May 2020 -- Sep 2020}{}
+            
+            Produced a Dataset and Developed a deeplearning based object detection model for recognizing different grip patterns, to be fed into a 3D prosthetic robotic hand.
+
+            \divider
+            
+            \cvevent{Marketing Head,Vellore Executive Board \& Volunteer}{| ERIDE (NGO)}{Sep 2018 -- Dec 2020}{Vellore, India}
+            
+            Empowering  Rural  India  with  Digital  Education(ERIDE)  aims  on  deliveringdigital  literacy  tounderprivileged  people.  Joined  as  a  freshman,from  teaching  kids  in  orphanages,  communitycentres to leading the NGO as a board member
+
+            \divider
+
+            \cvevent{Creative Head}{| Mozilla Firefox Club VIT}{Sep 2019 -- Dec 2020}{Vellore, India}
+            
+            Oversaw the club's activities, mentored designers,guided junior members in technical projects.
+
+            \divider
+
+            \cvevent{Senior Core Committee Member, Tech}{| Computer Society of India, VIT}{Dec 2018 -- Dec 2019}{Vellore, India}
+            
+            Organized  hackathons,  lead  workshops  andprogrammed  CTFs,  with  amazingly  talentedpeople I was fortunate enough to work with themon projects exposing students to new concepts.
+
+        % ----- EDUCATION -----
+        
+        % ----- PROJECTS -----
+        \cvsection{Projects}
+            \cvevent{GUI based End to End Auto ML dashboard for object detection and masking.}{| Ownership transferred to FindMind Analytics}{}{}
+            \cvevent{REST API for OCR and masking of sensitive data in Identity documents using image processing and object detection}{| Ownership transferred to FindMind Analytics}{}{}
+            \cvevent{Sentiment  Analysis  and  Topic  Modelling  of  primetime  News-hourDebates from different news channels}{\cvrepo{| \faGlobe}{https://www.siddharthgarg.in/files/NLP_Ayodhya.pdf}}{}{}
+            \cvevent{TB Saathi (Tuberculosis Diagnosis using neural networks tool)}{\cvrepo{| \faGlobe}{https://www.siddharthgarg.in/files/TB_Saathi.pdf}|\textit{ 2nd Prize in Hello World Hack}}{}{}
+            \cvevent{Minesweeper construction \& solving algorithm}{\cvrepo{| \faGithub}{https://github.com/realsidg/Minesweep/}\cvrepo{| \faGlobe}{https://www.siddharthgarg.in/files/minesweeper.pdf}}{}{}
+            \cvevent{Customer Segmentation using RFM technique}{\cvrepo{| \faGithub}{https://github.com/realsidg/customer_segmentation}}{}{}
+            \cvevent{Airplane dashboard value extraction using video processing}{}{}{}
+            
+        % ----- PROJECTS -----
+
+        
+    \end{paracol}
+\end{document}
