@@ -152,7 +152,7 @@
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
-\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\vspace{0.1cm}}
+\newcommand{\divider}{\textcolor{body}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\vspace{0.1cm}}
 
 \newenvironment{fullwidth}{%
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
@@ -288,7 +288,7 @@
   \endgroup\medskip
 }
 
-\renewenvironment{quote}{\color{accent}\itshape\normalsize}{\par}
+\renewenvironment{quote}{\itshape\normalsize}{\par}
 
 % Fork: Two bigskip tags added for better section separation
 \newcommand{\cvsection}[2][]{%

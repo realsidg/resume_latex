@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.15)  15 JAN 2021 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.15)  15 JAN 2021 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1132,15 +1132,15 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 40295 strings out of 479383
- 774912 string characters out of 5875830
- 1480398 words of memory out of 5000000
- 56753 multiletter control sequences out of 15000+600000
+ 40296 strings out of 479383
+ 774936 string characters out of 5875830
+ 1480548 words of memory out of 5000000
+ 56754 multiletter control sequences out of 15000+600000
  693658 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,10n,100p,1148b,2482s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-BoldItalic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb></usr/share/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on /work/resume_latex/main.pdf (1 page, 343958 bytes).
+Output written on /work/resume_latex/main.pdf (1 page, 343961 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
