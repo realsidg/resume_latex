@@ -1288,6 +1288,11 @@ INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
@@ -1298,11 +1303,6 @@ INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm
-INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/google/roboto/RobotoSlab-Regular-tlf-t1.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/google/roboto/RobotoSlab-Bold-tlf-t1.tfm
@@ -1352,9 +1352,9 @@ OUTPUT /work/resume_latex/main.run.xml
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb

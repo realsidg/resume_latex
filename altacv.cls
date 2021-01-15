@@ -216,8 +216,8 @@
 \NewInfoField{phone}{\faPhone}
 \NewInfoField{homepage}{\faGlobe}[https://]
 \NewInfoField{twitter}{\faTwitter}[https://twitter.com/]
-\NewInfoField{linkedin}{\faLinkedin}[https://linkedin.com/in/]
-\NewInfoField{github}{\faGithub}[https://github.com/]
+\NewInfoField{linkedin}{\faLinkedin}[]
+\NewInfoField{github}{\faGithub}[]
 \NewInfoField{orcid}{\aiOrcid}[https://orcid.com/]
 \NewInfoField{location}{\faMapMarker}
 % Fork: New optional options added for dev and medium accounts
@@ -400,7 +400,7 @@
 \newcommand{\cvref}[2]{%
   \textcolor{emphasis}{\textbf{#1}}\par
   \begin{description}[font=\color{accent},style=multiline,leftmargin=1.35em,align=left]
-    \item[\small\normalfont\faLinkedin]\href{https://linkedin.com/in/#2}{#2}
+    \item[\small\normalfont\faLinkedin]\href{#2}{#2}
   \end{description}
 }
 
