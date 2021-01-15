@@ -129,6 +129,7 @@
 \colorlet{accent}{blue!70!black}
 \colorlet{emphasis}{black}
 \colorlet{heading}{black}
+\colorlet{SemiHead}{black}
 \colorlet{headingrule}{black}
 \colorlet{subheading}{emphasis}
 \colorlet{body}{black!80!white}
@@ -305,7 +306,7 @@
 % v1.1.4: fixes inconsistent font size
 % Fork: structure modified to include change title, company name, start/end dates and work location (only a string)
 \newcommand{\cvevent}[4]{%
-  {\textbf{\normalsize\color{white}#1}}
+  {\textbf{\normalsize\color{SemiHead}#1}}
   \ifstrequal{#2}{}{}{\normalsize{\color{accent}#2}}
   \par\smallskip\normalsize
   \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\color{accent}\faCalendar\color{emphasis}~#3}}}
@@ -315,7 +316,7 @@
 
 \newcommand{\cvachievement}[3]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
-  \multirow{2}{*}{\Large\color{accent}#1} & \bfseries\textcolor{white}{#2}\\
+  \multirow{2}{*}{\Large\color{accent}#1} & \bfseries\textcolor{SemiHead}{#2}\\
   & #3
   \end{tabularx}%
   \smallskip
@@ -323,7 +324,7 @@
 
 % Fork: Tags separation partially achieved, missing vertical spaces consistency for now
 \newcommand{\cvtag}[1]{%
-  \tikz[baseline]\node[anchor=base,draw=body,rounded corners,inner xsep=1ex,inner ysep=0.75ex,text=white,text height=1.5ex,text depth=.25ex]{#1};
+  \tikz[baseline]\node[anchor=base,draw=body,rounded corners,inner xsep=1ex,inner ysep=0.75ex,text=SemiHead,text height=1.5ex,text depth=.25ex]{#1};
   \vspace{0.25ex}
 }
 
