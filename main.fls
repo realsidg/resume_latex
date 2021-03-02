@@ -1322,7 +1322,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free3solid.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-BoldItalic-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/google/roboto/RobotoSlab-Bold-tlf-t1.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/google/roboto/RobotoSlab-Bold-tlf-t1--base.tfm
@@ -1342,8 +1341,6 @@ INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/typoland/lato/Lato-BoldItalic-T1-TLF.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/typoland/lato/Lato-BoldItalic-T1-TLF--base.tfm
 INPUT /work/resume_latex/main.aux
 INPUT /work/resume_latex/main.out
 INPUT /work/resume_latex/main.out
@@ -1360,7 +1357,6 @@ INPUT /usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_j2bk2t.enc
 INPUT /usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-BoldItalic.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/google/roboto/RobotoSlab-Bold.pfb
